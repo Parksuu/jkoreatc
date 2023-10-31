@@ -1,82 +1,142 @@
 import React from 'react';
-// import '../css/bootstrap.css';
-import '../css/style.css';
-// import '../css/font-awesome.min.css';
+import Footer from '../common/Footer';
+import Header from '../common/Header';
 
-const Home = (props) => {
+const Home = () => {
+    // 화면 너비를 가져오는 함수
+    // const getWindowWidth = () => {
+    //   return window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+    // };
+  
+    // // 화면 너비를 확인하여 이미지 변경
+    // const checkWindowWidth = () => {
+    //   const windowWidth = getWindowWidth();
+  
+    //   // 특정 사이즈 이하인 경우 이미지 변경
+    //   if (windowWidth <= 480) {
+    //     document.getElementById("up").src = "images/index_main1_up_mob.png";
+    //     document.getElementById("down").src = "images/index_main1_down_mob.png";
+    //   } else {
+    //     document.getElementById("up").src = "images/index_main1_up_web.png";
+    //     document.getElementById("down").src = "images/index_main1_down_web.png";
+    //   }
+    // };
+  
+    // // 페이지 로드 및 리사이즈 시 화면 너비 확인
+    // window.addEventListener("load", checkWindowWidth);
+    // window.addEventListener("resize", checkWindowWidth);
+  
     return (
-        <div className="hero_area">
-            {/* header section strats */}
-            {/* header 1 */}
-            <header className="header_section long_section px-0">
-                <nav className="navbar navbar-expand-lg custom_nav-container">
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav ml-auto pr-5">
-                            <a href="https://www.tiktok.com/@jkorea_tour?_t=8foxQGs6cc5&_r=1">
-                                <li className="nav-item active">
-                                    <img src="images/tictok1.png" alt="" width="50" height="50" />
-                                </li>
-                            </a>
-                            <a href="https://instagram.com/jkorea_tour?igshid=OGQ5ZDc2ODk2ZA==">
-                                <li className="nav-item">
-                                    <img src="images/noback_instagram.png" alt="" width="50" height="50" />
-                                </li>
-                            </a>
-                            <a href="http://wa.me/821025979678">
-                                <li className="nav-item">
-                                    <img src="images/call1.png" alt="" width="50" height="50" />
-                                </li>
-                            </a>
-                        </ul>
-                    </div>
-                </nav>
-                {/* header 2 */}
-                <nav className="navbar navbar-expand-lg custom_nav-container ">
-                    <a className="navbar-brand" href="index.html">
-                        <img src="images/noback_title.png" alt="" width="180" height="100" />
-                    </a>
-                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className=""> </span>
-                    </button>
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <div className="d-flex mx-auto flex-column flex-lg-row align-items-center">
-                            <ul className="navbar-nav  ">
-                                <li className="nav-item active">
-                                    <b><a className="nav-link" href="index.html">Home <span className="sr-only">(current)</span></a></b>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" href="tour.html">Tour</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" href="privateTour.html">Private Tour</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" href="about.html">About Us</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-            </header>
-            {/* end header section */}
-            {/* slider section */}
-            <section className="slider_section long_section">
-                <div id="customCarousel" className="carousel slide" data-ride="carousel">
-                    <div className="carousel-inner">
-                        <div className="carousel-item active">
-                            <div className="container ">
-                                <img id="up" src="" alt="" style={{ width: '100%', height: 'auto' }} />
-                                <a href="http://wa.me/821025979678">
-                                    <img id="down" src="" alt="" style={{ width: '100%', height: 'auto' }} />
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            {/* end slider section */}
+        <>
+    <body className="sub_page">
+        <Header/>
+        <div>
+          <img src="images/index_main1_up.png" alt="" style={{ width: '100%', height: 'auto' }} />
+          <a href="http://wa.me/821025979678"><img src="images/index_main1_down.png" alt="" style={{ width: '100%', height: 'auto' }} /></a>
         </div>
+        {/* 'Our best tour is' section */}
+        <section className="blog_section layout_padding">
+          <div className="container">
+            <div className="heading_container">
+              <h2>Our best tour is... 🙂</h2>
+            </div>
+            <div className="row">
+              <div className="col-md-6 col-lg-4">
+                <div className="box">
+                  <div className="detail-box">
+                    <a href="tour4.html">
+                      <img src="images/tour4_short.png" alt="" style={{ width: '100%', height: 'auto' }} />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-4">
+                <div className="box">
+                  <div className="detail-box">
+                    <a href="tour2.html">
+                      <img src="images/tour2_short.png" alt="" style={{ width: '100%', height: 'auto' }} />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-4">
+                <div className="box">
+                  <div className="detail-box">
+                    <a href="tour5.html">
+                      <img src="images/tour5_short.png" alt="" style={{ width: '100%', height: 'auto' }} />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-4">
+                <div className="box">
+                  <div className="detail-box">
+                    <a href="tour1.html">
+                      <img src="images/tour1_short.png" alt="" style={{ width: '100%', height: 'auto' }} />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-4">
+                <div className="box">
+                  <div className="detail-box">
+                    <a href="tour3.html">
+                      <img src="images/tour3_short.png" alt="" style={{ width: '100%', height: 'auto' }} />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-4"></div>
+            </div>
+          </div>
+        </section>
+        {/* End 'Our best tour is' section */}
+        {/* Client section */}
+        <section className="blog_section layout_padding">
+          <div className="container">
+            <div className="heading_container">
+              <div className="row">
+                <img src="images/instagram.png" alt="" width="50" height="50" />
+                <h2>MORE INFO JKOREA IN SNS</h2>
+                <img src="images/tictok3.png" alt="" width="50" height="50" />
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-md-6 col-lg-4 mx-auto">
+                <div className="box">
+                  <div className="img-box">
+                    <a href="https://www.instagram.com/p/CwujQWbLwgP/?igshid=MzRlODBiNWFlZA==">
+                      <img src="images/instagram1.png" alt="" style={{ width: '100%', height: 'auto' }} />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-4 mx-auto">
+                <div className="box">
+                  <div className="img-box">
+                    <a href="https://www.instagram.com/p/CwhkYYbLZwm/?igshid=MzRlODBiNWFlZA==">
+                      <img src="images/instagram2.jpg" alt="" style={{ width: '100%', height: 'auto' }} />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-4 mx-auto">
+                <div className="box">
+                  <div className="img-box">
+                    <a href="https://www.instagram.com/reel/Cwz6LXzr4S6/?igshid=MzRlODBiNWFlZA==">
+                      <img src="images/instagram3.png" alt="" style={{ width: '100%', height: 'auto' }} />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* End Client section */}
+        <Footer/>
+      </body>
+      </>
     );
-};
-
-export default Home;
+  };
+  
+  export default Home;
