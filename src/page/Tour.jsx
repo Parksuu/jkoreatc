@@ -18,7 +18,7 @@ const Tour = () => {
             <div className="col-md-6 col-lg-4">
               <div className="box">
                 <div className="detail-box">
-                  <Link to="/tour4">
+                  <Link to="/SnsTour">
                     <img src="images/tour4_short.png" alt="" style={{ width: '100%', height: 'auto' }} />
                   </Link>
                 </div>
@@ -27,7 +27,7 @@ const Tour = () => {
             <div className="col-md-6 col-lg-4">
               <div className="box">
                 <div className="detail-box">
-                  <Link to="/tour2">
+                  <Link to="/KdramaTour">
                     <img src="images/tour2_short.png" alt="" style={{ width: '100%', height: 'auto' }} />
                   </Link>
                 </div>
@@ -36,7 +36,7 @@ const Tour = () => {
             <div className="col-md-6 col-lg-4">
               <div className="box">
                 <div className="detail-box">
-                  <Link to="/tour5">
+                  <Link to="/BusinessTour">
                     <img src="images/tour5_short.png" alt="" style={{ width: '100%', height: 'auto' }} />
                   </Link>
                 </div>
@@ -45,7 +45,7 @@ const Tour = () => {
             <div className="col-md-6 col-lg-4">
               <div className="box">
                 <div className="detail-box">
-                  <Link to="/tour1">
+                  <Link to="/BusanTour">
                     <img src="images/tour1_short.png" alt="" style={{ width: '100%', height: 'auto' }} />
                   </Link>
                 </div>
