@@ -8,6 +8,7 @@ import BusanTour from './page/tourDetails/BusanTour';
 import KdramaTour from './page/tourDetails/KdramaTour';
 import SnsTour from './page/tourDetails/SnsTour';
 import BusinessTour from './page/tourDetails/BusinessTour';
+import Caro from './page/Caro';
 
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
       <Route path="/about" element={<About />} />
       <Route path="/tour" element={<Tour />} />
       <Route path="/privateTour" element={<PrivateTour />} />
-      
+      <Route path="/caro" element={<Caro />} />
+
       {/* Tour Detail 컴포넌트 */}
       <Route path="/BusanTour" element={<BusanTour />} />
       <Route path="/KdramaTour" element={<KdramaTour />} />

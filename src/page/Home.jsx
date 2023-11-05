@@ -35,10 +35,10 @@ const Home = () => {
           <a href="http://wa.me/821025979678"><img src="images/index_main1_down.png" alt="" style={{ width: '100%', height: 'auto' }} /></a>
         </div>
         {/* 'Our best tour is' section */}
-        <section className="blog_section layout_padding">
+        <section className="blog_section">
           <div className="container">
             <div className="heading_container">
-              <h2>Our best tour is... 🙂</h2>
+              <h2>Our best tour is🙂</h2>
             </div>
             <div className="row">
               <div className="col-md-6 col-lg-4">
@@ -50,6 +50,7 @@ const Home = () => {
                   </div>
                 </div>
               </div>
+
               <div className="col-md-6 col-lg-4">
                 <div className="box">
                   <div className="detail-box">
@@ -59,6 +60,7 @@ const Home = () => {
                   </div>
                 </div>
               </div>
+
               <div className="col-md-6 col-lg-4">
                 <div className="box">
                   <div className="detail-box">
@@ -68,6 +70,7 @@ const Home = () => {
                   </div>
                 </div>
               </div>
+
               <div className="col-md-6 col-lg-4">
                 <div className="box">
                   <div className="detail-box">
@@ -77,16 +80,7 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 col-lg-4">
-                <div className="box">
-                  <div className="detail-box">
-                    <a href="tour3.html">
-                      <img src="images/tour3_short.png" alt="" style={{ width: '100%', height: 'auto' }} />
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-6 col-lg-4"></div>
+
             </div>
           </div>
         </section>
@@ -96,9 +90,8 @@ const Home = () => {
           <div className="container">
             <div className="heading_container">
               <div className="row">
-                <img src="images/instagram.png" alt="" width="50" height="50" />
+                <img src="images/instagram.png" alt="" width="40" height="40" />
                 <h2>MORE INFO JKOREA IN SNS</h2>
-                <img src="images/tictok3.png" alt="" width="50" height="50" />
               </div>
             </div>
             <div className="row">

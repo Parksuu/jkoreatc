@@ -4590,6 +4590,16 @@ input[type="button"].btn-block {
   list-style: none;
 }
 
+.navbar-nav1 {
+  display: -ms-flexbox;
+  display: flex;
+  /* -ms-flex-direction: column;
+  flex-direction: column;
+  padding-left: 0; */
+  margin-bottom: 0;
+  list-style: none;
+}
+
 .navbar-nav .nav-link {
   padding-right: 0;
   padding-left: 0;
@@ -9058,6 +9068,11 @@ button.bg-dark:focus {
 .ml-auto,
 .mx-auto {
   margin-left: auto !important;
+}
+
+.mr-auto,
+.mx-auto {
+  margin-right: auto !important;
 }
 
 @media (min-width: 576px) {

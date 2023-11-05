@@ -12,7 +12,7 @@ const Tour = () => {
       <Header/>
 
       {/* Furniture section */}
-      <section className="furniture_section layout_padding">
+      <section className="furniture_section">
         <div className="container">
           <div className="row">
             <div className="col-md-6 col-lg-4">
