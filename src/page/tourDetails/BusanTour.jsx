@@ -1,11 +1,11 @@
 
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import Header from '../../common/Header';
 import Footer from '../../common/Footer';
 
 const BusanTour = () => {
-  const [upImage, setUpImage] = useState(''); // State to manage the "up" image source
-  const [downImage, setDownImage] = useState(''); // State to manage the "down" image source
+  // const [upImage, setUpImage] = useState(''); // State to manage the "up" image source
+  // const [downImage, setDownImage] = useState(''); // State to manage the "down" image source
 
   // // Function to get window width
   // const getWindowWidth = () => {
