@@ -12,7 +12,7 @@ const Footer = () => {
               <img src="images/noback_instagram.png" alt="Instagram" width="70" height="70" />
             </a>
             <a>
-              <img src="images/message.png" width="70" height="70" />
+              <img src="images/message.png" alt="" width="70" height="70" />
               <span>juliana.jkorea@gmail.com</span>
             </a>
           </div>
