@@ -11,10 +11,10 @@ const Footer = () => {
             <a href="https://instagram.com/jkorea_tour">
               <img src="images/noback_instagram.png" alt="Instagram" width="70" height="70" />
             </a>
-            <a>
+            <div>
               <img src="images/message.png" alt="" width="70" height="70" />
               <span>juliana.jkorea@gmail.com</span>
-            </a>
+            </div>
           </div>
           <div className="info_top">
             (07563) No. 491, 8, Gonghangdae-ro 59gil, Gangseo-gu, Seoul, Republic of Korea <br />
