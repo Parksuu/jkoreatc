@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from '../common/Footer';
 import Header from '../common/Header';
+import Caro from './Caro';
 
 const Home = () => {
     // 화면 너비를 가져오는 함수
@@ -84,8 +85,20 @@ const Home = () => {
             </div>
           </div>
         </section>
-        {/* End 'Our best tour is' section */}
-        {/* Client section */}
+
+        <br/> <br/>
+
+        {/* carousel 테스트 */}
+        <section className="blog_section">
+          <div className="container">
+            <div className="heading_container">
+              <h2>Carousel 테스트🙂</h2>
+            </div>
+              <Caro/>
+            </div>
+        </section>
+
+        {/* SNS section */}
         <section className="blog_section layout_padding">
           <div className="container">
             <div className="heading_container">
